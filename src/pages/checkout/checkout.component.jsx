@@ -48,7 +48,7 @@ const CheckoutPage = ({CartItems,total}) =>(
                 <CheckoutItem key={cartItem.id} cartItem={cartItem}/>
             ))
         }
-        <div className='total'> TOTAL : ${total} </div>
+        <div className='total'> TOTAL : ₹{total} </div>
         <div className='test-warning'>
             Please Use the following test Credit card Number
             <br />
