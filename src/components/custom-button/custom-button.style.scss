@@ -45,4 +45,15 @@
       }
     }
   }
+
+  @media screen and (max-width:800px){
+    .custom-button{
+      display: block;
+      opacity: 0.9;
+      min-width: unset;
+      padding: 0 10px ;
+      font-size: 13px;
+
+    }
+  }
   

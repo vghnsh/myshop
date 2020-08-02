@@ -8,6 +8,7 @@ import { createStructuredSelector } from 'reselect';
 import {withRouter} from 'react-router-dom';
 import { toggleCartHidden} from '../../redux/cart/cart.action';
 
+
 import './cart-dropdown.style.scss';
 
 const CartDropDown=({cartItems,history,dispatch})=>(
@@ -23,7 +24,7 @@ const CartDropDown=({cartItems,history,dispatch})=>(
                     Cart Is Empty
                 </span>
             }
-    </div>
+        </div>
             <CustomButton checkout onClick={()=> {
                 history.push('/checkout');
                 dispatch(toggleCartHidden());

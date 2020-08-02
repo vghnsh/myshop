@@ -41,4 +41,10 @@
       color: red;
     }
   }
+
+  @media screen and (max-width:800px){
+    .checkout-page{
+      width: 80%;
+    }
+  }
   

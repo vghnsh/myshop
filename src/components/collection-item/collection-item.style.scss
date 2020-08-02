@@ -1,3 +1,4 @@
+
 .collection-item {
     width:20vw;
     display: flex;
@@ -16,11 +17,12 @@
 
     .custom-button{
       width: 80%;
-      opacity:0.7 ;
+      opacity:0.7;
       position: absolute;
       top: 180px;
       display: none;
     }
+
     &:hover{
       .image{
         opacity: 0.8;
@@ -49,4 +51,16 @@
       }
     }
   }
+
+  @media screen and (max-width:800px){
+    .collection-item{
+      width: 40vw;
+    }
+  
+    .collection-item .custom-button{
+      display: block;
+      opacity: unset;
+     
+    }
+    }
   
